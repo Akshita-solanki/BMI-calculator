@@ -1,0 +1,57 @@
+body {
+    background-color: #998CEB;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.item {
+    margin-top: 5rem;
+    background-color: #D9D7F1;
+    padding: 4rem;
+    border-radius: 10%;
+
+
+}
+
+.inputt-h,
+.inputt-w,
+.btn {
+    border: none;
+    border-bottom: 4px solid #998CEB;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.btn {
+    font-size: 1.5em;
+    color: #655D8A
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #5e549d;
+    color: white;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #655D8A
+}
+
+.result,
+.bmi {
+    color: #655D8A;
+
+
+}
+
+.result {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+}
