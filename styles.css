@@ -55,3 +55,32 @@ p {
     font-family: 'Sacramento', cursive;
     font-size: 2.5rem;
 }
+
+
+@media (max-width: 720px) {
+    .item {
+        margin-top: 5rem;
+        padding: 2rem;
+
+    }
+
+    p {
+        font-size: 1rem;
+
+    }
+
+    .inputt-h,
+    .inputt-w,
+    .btn {
+        padding: 11px 7px;
+
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .bmi {
+        font-size: 1.5rem;
+    }
+}
