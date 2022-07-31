@@ -18,4 +18,3 @@ function bmi_calc() {
         document.querySelector(".result").innerHTML = "Obese";
     }
 }
-bmi_calc();
